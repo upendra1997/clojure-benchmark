@@ -1,0 +1,15 @@
+amd64 Linux 6.1.51 4 cpu(s)
+OpenJDK 64-Bit Server VM 25.362-bga
+Runtime arguments: -Dfile.encoding=UTF-8 -Djdk.attach.allowAttachSelf -XX:+UnlockDiagnosticVMOptions -XX:+DebugNonSafepoints -Dclojure.compile.path=/home/hdggxin/workspace/clojure-benchmark/target/classes -Dclojure-benchmark.version=0.1.0-SNAPSHOT -Dclojure.debug=false
+Evaluation count : 40169400 in 60 samples of 669490 calls.
+      Execution time sample mean : 1.797788 µs
+             Execution time mean : 1.798289 µs
+Execution time sample std-deviation : 190.677012 ns
+    Execution time std-deviation : 193.647058 ns
+   Execution time lower quantile : 1.462835 µs ( 2.5%)
+   Execution time upper quantile : 2.078808 µs (97.5%)
+                   Overhead used : 2.049340 ns
+
+Found 1 outliers in 60 samples (1.6667 %)
+	low-severe	 1 (1.6667 %)
+ Variance from outliers : 72.1256 % Variance is severely inflated by outliers

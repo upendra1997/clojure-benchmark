@@ -1,0 +1,8 @@
+:tufte/nil-id,
+pId                   nCalls        Min      50% ≤      90% ≤      95% ≤      99% ≤        Max       Mean   MAD      Clock  Total
+
+:pro              99,877,692   406.00ns     1.31μs     1.65μs     2.20μs     3.31μs   207.43ms     1.24μs  ±51%     2.06m     68%
+:tufte/compaction        124    29.93ms    98.32ms   140.57ms   272.58ms   304.62ms   873.02ms    91.13ms  ±57%    11.30s      6%
+
+Accounted                                                                                                           2.25m     74%
+Clock                                                                                                               3.03m    100%
